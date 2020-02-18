@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="ex1.js"></script>
+	<title>Prova</title>
+
+</head>
+<body>
+
+<form id = "form">
+  <label for="telefone">Telefone:</label><br>
+  <input type="text" id="telefone" name="telefone" ><br><br>
+  <label for="name">Name:</label><br>
+  <input type="text" id="name" name="name" ><br><br>
+
+  <label for="chegada">Chegada:</label><br>
+  <input type="date" id="chegada" name="chegada" ><br><br>
+  
+
+  <label for="saida">Saida:</label><br>
+  <input type="date" id="saida" name="saida" ><br><br>
+
+
+  <label for="tipo">Tipo:</label><br>
+  <select name="tipo" size="3", id = "tipo">
+  <option value="single">Single (R$ 139,00)</option>
+  <option value="double">Double(R$ 220,00)</option>
+  <option value="triplo">Triplo(R$ 340,00)</option>
+  </select> <br> <br>
+
+  <label for="saida">Número de crianças:</label><br> 
+  <input type="value" id="numero" name="numero" max = "4"><br><br>
+
+  <label for="submitForm">Reservar</label><br> 
+  <input type="submit" id="submitForm" name="submit" ><br><br>
+
+
+</form> 
+
+<script type="text/javascript">
+
+window.onload = init;
+
+</script>
+
+
+</body>
+</html>
